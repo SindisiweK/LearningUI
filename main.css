@@ -90,3 +90,20 @@
  .aboutbody{
    background-color: turquoise;
  }
+ .social-icons{
+   text-align: right;
+ }
+ .social-icons li{
+   display: inline-block;
+   list-style-type: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+ }
+ .social-icons li a{
+   border-bottom: none;
+ }
+ .social-icons li img{
+   width: 40px;
+   height: 40px;
+   margin-right: 0px;
+ }
