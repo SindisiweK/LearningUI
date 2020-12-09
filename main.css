@@ -6,7 +6,7 @@
      background-color: darkslategray;
      background-image: url(images/bar-restimage.webp);
      background-size: cover;
-     background-repeat: no-repeat;
+     /*background-repeat: no-repeat;*/
      background-position: center;
  }
  
@@ -113,6 +113,10 @@ span{
    padding-left: 10px;
    padding-right: 10px;
 }
+
+
+
+
 .slide-container .prev,
 .slide-container .next {
   cursor: pointer;
@@ -190,5 +194,10 @@ span{
 
 .slide-container .slide img {
   width: 100%;
+}
+
+.content p{
+  text-align: center;
+  font-family: cursive;
 }
 
